@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "bench": "vitest bench",
+    "bench": "vitest bench --run",
     "test:ui": "vitest --ui",
     "test:run": "vitest run"
   },
@@ -15,7 +15,7 @@
     "vitest": "latest"
   },
   "stackblitz": {
-    "startCommand": "npm run test:ui"
+    "startCommand": "npm run bench"
   },
   "dependencies": {
     "@xwat/wasm-tools": "^0.2.2",
